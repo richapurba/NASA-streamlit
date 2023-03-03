@@ -7,5 +7,5 @@ st.title("Habitable Exoplanets and Stars")
 st.subheader("NASA Discovery")
 
 #Load dataframe
-df = pd.read_excel('Habitable.csv')
+df = pd.read_csv('Habitable.csv')
 st.dataframe(df)
