@@ -2,6 +2,17 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
+# Change background into image
+st.markdown(
+   f”””
+   <style>
+   p {
+   background-image: url(‘img_file.jpg’);
+   }
+   </style>
+   ”””,
+   unsafe_allow_html=True)
+
 #Title and subtitle
 st.title("Habitable Exoplanets and Stars")
 st.subheader("NASA Discovery")
