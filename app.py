@@ -17,7 +17,7 @@ st.markdown(
 #Sidebar
 image = Image.open('logo.png')
 
-st.image(image, caption=None)
+st.sidebar.image(image, caption=None)
 
 st.sidebar.title("Habitable Exoplanets and Stars")
 st.sidebar.subheader("NASA Discovery")
