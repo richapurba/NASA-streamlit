@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
+from PIL import Image
 
 # Change background into image
 st.markdown(
@@ -13,7 +14,10 @@ st.markdown(
    ”””,
    unsafe_allow_html=True)
 
-#Title and subtitle
+#Sidebar
+image = Image.open('logo.png')
+
+st.image(image, caption=None)
 
 st.sidebar.title("Habitable Exoplanets and Stars")
 st.sidebar.subheader("NASA Discovery")
