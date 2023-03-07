@@ -5,13 +5,11 @@ from PIL import Image
 
 # Change background into image
 st.markdown(
-   f”””
+   """
    <style>
-   p {
-   background-image: url(‘bg.jpeg’);
-   }
+   p {background-image: url("bg.jpeg");}
    </style>
-   ”””,
+   """,
    unsafe_allow_html=True)
 
 #Sidebar
