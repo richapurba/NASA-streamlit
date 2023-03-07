@@ -14,8 +14,9 @@ st.markdown(
    unsafe_allow_html=True)
 
 #Title and subtitle
-st.title("Habitable Exoplanets and Stars")
-st.subheader("NASA Discovery")
+
+st.sidebar.title("Habitable Exoplanets and Stars")
+st.sidebar.subheader("NASA Discovery")
 
 #Load dataframe
 df = pd.read_csv('Habitable.csv')
